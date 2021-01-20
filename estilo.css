@@ -1,6 +1,7 @@
 body{
 	font-family: arial, helvetica;
 	background: #2A2A2A;
+	font: white;
 }
 
 .menu{
@@ -32,14 +33,16 @@ input {
 	height: 28px;
 	padding-right: 200px;
 	
+	
 }
 .menu li{
 	display: inline-block;
 	text-align: center;
 }
 
-.menu li a:hover{
+.menu li input a:hover{
 	background:#1c1c1c;
+	
 }
 
 #lupa {
