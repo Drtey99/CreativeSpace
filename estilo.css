@@ -7,9 +7,9 @@ body{
 	list-style: none;
 	padding: 0;
 	background: #1C2833;
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
+	width: 100%;
+	
+	
 }
 
 .menu li a{
@@ -21,8 +21,11 @@ body{
 input {
     background-color:#1C2833;
     border-radius: 0.5em;
-    width: 600px;
-    border-color: white;
+    width: 1000px;
+	border-color: white;
+	height: 20px;
+	padding-right: 200px;
+	
 }
 .menu li{
 	display: inline-block;
@@ -34,5 +37,7 @@ input {
 }
 
 #lupa {
-    color: white;
+	color: white;
+	padding-left: 200px;
+
 }
