@@ -1,0 +1,38 @@
+body{
+	font-family: arial, helvetica;
+	background: #1C1C1C;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #1C2833;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+input {
+    background-color:#1C2833;
+    border-radius: 0.5em;
+    width: 600px;
+    border-color: white;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #F94F76;
+}
+
+#lupa {
+    color: white;
+}
