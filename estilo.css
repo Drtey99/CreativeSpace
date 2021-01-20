@@ -1,13 +1,17 @@
 body{
 	font-family: arial, helvetica;
-	background: #1C1C1C;
+	background: #2A2A2A;
 }
 
 .menu{
 	list-style: none;
 	padding: 0;
-	background: #1C2833;
-	width: 100%;
+	background: #2A2A2A;
+	border: 1px solid #6F6F6F;
+	border-top: #6F6F6F;
+	border-left: #6F6F6F;
+	border-right: #6F6F6F;
+	border-width: 3px;
 	
 	
 }
@@ -17,13 +21,15 @@ body{
 	color: white;
 	padding: 20px;
 	display: block;
+
 }
 input {
-    background-color:#1C2833;
-    border-radius: 0.5em;
+    background-color:#1c1c1c;
     width: 1000px;
-	border-color: white;
-	height: 20px;
+	border-color: #6F6F6F;
+	border-collapse: collapse;
+	border-style: solid;
+	height: 28px;
 	padding-right: 200px;
 	
 }
@@ -33,11 +39,22 @@ input {
 }
 
 .menu li a:hover{
-	background: #F94F76;
+	background:#1c1c1c;
 }
 
 #lupa {
 	color: white;
-	padding-left: 200px;
+	padding-left: 200px; 
+	padding-right: 10px;
+}
 
+#iniciar{
+	background-color: #FC4C7C;
+	border-radius: 0.5em;
+	font: white;
+	height: 30px;
+	width: 70px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #FC4C7C;
 }
