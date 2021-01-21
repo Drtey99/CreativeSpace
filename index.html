@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Barra de navegacion</title>
-        <link rel="stylesheet" type="text/css" href="estilo.css">
-    
-    </head>
+
+<head>
+    <title>Barra de navegacion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
 
     <body>
-        <ul class="menu">
-			<li><a href="#"><b>CREATIVE</b>SPACE</a></li>
-            <li></li>
-            <li><svg xmlns="http://www.w3.org/2000/svg" id="lupa" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-              </svg><input type="text"></li>
-            <li><a href="#">SIGN IN</a></li>
-            
-			
-		</ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><b>CREATIVE</b>SPACE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- Util o inutil -->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="old.html">javi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">123</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="lupa" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <input id="search" class="form-control mr-sm-2 btn-outline-light bg-dark" type="search"
+                        placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light bg-dark text-light my-2 my-sm-0"
+                        type="submit">Sign In</button>
+
+                </form>
+            </div>
+        </nav>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
     </body>
+
 </html>
