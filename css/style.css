@@ -1,0 +1,16 @@
+body{
+	font-family: arial, helvetica;
+	background: #2A2A2A !important;
+	font: white;
+}
+
+#search{
+
+	width: 30em;
+}
+
+#lupa{
+	margin-right: 1em;
+	margin-left: 2em;
+	color: white;
+}
