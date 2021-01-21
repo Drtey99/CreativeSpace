@@ -1,0 +1,6 @@
+ng serve       //Inicia el servidor localhost:4200
+
+ng new nombre-proyecto  //Crea un proyecto
+
+El codigo principal se encuentra en la carpeta app, el archivo de la hoja de estilos seria app.component.scss, 
+el codigo de ts se encuentra en app.component.ts, los modulos cargados en app.module.ts y el html base es app.component.html.

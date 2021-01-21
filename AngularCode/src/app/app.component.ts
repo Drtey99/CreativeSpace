@@ -9,8 +9,8 @@ export class AppComponent {
    title(title: any) {
      throw new Error('Method not implemented.');
    }
-   items: Array<any> = []
-
+   items: Array<any> = []           //Array de las imagenes que se pueden cargar por ruta local o por base datos
+                                            
    constructor() {
      this.items = [
        { name:'assets/images/1.jpg' }, //name or url
