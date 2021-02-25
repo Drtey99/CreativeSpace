@@ -52,7 +52,7 @@ body {
 /* Responsive layout  */
 @media only screen and (max-width: 600px) {
   .row .column {
-    flex: 100%;
+    flex: 50%;
   }
   .row .column img {
     filter: grayscale(0) brightness(1); 
@@ -186,6 +186,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  vertical-align:middle;
 }
 
 /* The switch - the box around the slider */
@@ -1609,3 +1610,4 @@ section {
 #footer .credits a {
   color: #FFE1FF;
 }
+
