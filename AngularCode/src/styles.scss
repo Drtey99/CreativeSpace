@@ -7,23 +7,6 @@ body {
   background-color: #171717;
 }
 
-/* Responsive layout  */
-@media only screen and (max-width: 800px) {
-  .row .column {
-    flex: 50%;
-  }
-}
-
-/* Responsive layout  */
-@media only screen and (max-width: 600px) {
-  .row .column {
-    flex: 50%;
-  }
-  .row .column img {
-    filter: grayscale(0) brightness(1); 
-  }
-}
-
 a {
   color: #9561d8;
 }
