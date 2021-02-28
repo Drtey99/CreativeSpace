@@ -1,0 +1,88 @@
+/*--------------------------------------------------------------
+# Our Team
+--------------------------------------------------------------*/
+.team {
+    background: #171717;
+    padding: 60px 0 30px 0;
+  }
+  
+  .team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  
+  .team .member .pic {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .team .member img {
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .team .member:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team .member .member-info {
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(360deg, rgb(105, 105, 105), rgba(140, 85, 192, 0.651) 35%, rgba(158, 91, 221, 0.651) 100%);
+    padding: 15px 0;
+    border-radius: 4px;
+  }
+  
+  .team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .team .member h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  .team .member .social {
+    margin-top: 15px;
+  }
+  
+  .team .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+  }
+  
+  .team .member .social a:hover {
+    color: #f77ab4;
+  }
+  
+  .team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+  }
+  
+  @media (max-width: 992px) {
+    .team .member {
+      margin-bottom: 100px;
+    }
+  }
+  
